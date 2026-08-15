@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  --color-charcoal-900: #0F1115;
+  --color-charcoal-800: #1A1D24;
+  --color-charcoal-700: #272B36;
+  --color-java: #D4AF37;
+  --color-java-light: #F3E5AB;
+  --color-pharma: #2A9D8F;
+  --color-pharma-dark: #21867A;
+}
+
+body {
+  background-color: var(--color-charcoal-900);
+  color: #ffffff;
+}
